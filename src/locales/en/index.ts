@@ -1,0 +1,1 @@
+/*eslint-disable*/export const messages=JSON.parse("{\"vXIe7J\":\"Language\",\"ZSDQwQ\":\"Language: \",\"yzF66j\":\"Link\",\"+Hp/53\":\"Load Data\",\"Z3FXyt\":\"Loading...\",\"B6C0XJ\":\"No Data\",\"nBkzLK\":\"Page1\",\"hwJ0Ro\":\"Page2\",\"ooullr\":\"Repositories\",\"2vVR4f\":\"Star\"}");

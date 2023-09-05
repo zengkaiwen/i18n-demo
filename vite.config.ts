@@ -1,11 +1,16 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import babel from 'vite-plugin-babel';
+import { lingui } from '@lingui/vite-plugin'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    babel(),
-    react()
+    react({
+      babel: {
+        plugins: ["macros"],
+        presets: ["@babel/preset-typescript"]
+      }
+    }),
+    lingui(),
   ],
 })
