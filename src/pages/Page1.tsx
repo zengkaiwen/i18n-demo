@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Trans, t } from '@lingui/macro'
 import { styled } from 'styled-components';
-import { useLingui } from '@lingui/react';
+// import { useLingui } from '@lingui/react';
 
 const Wrapper = styled.div`
     h2 {
@@ -99,7 +99,7 @@ function waitTime(time: number) {
 }
 
 const Page1 = () => {
-    useLingui()
+    // useLingui()
 
     const [loading, setLoading] = React.useState<boolean>(false);
     const [dataList, setDataList] = React.useState<DataItem[]>([]);
